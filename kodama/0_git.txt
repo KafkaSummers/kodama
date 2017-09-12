@@ -1,0 +1,19 @@
+						GIT
+
+
+Centralized Version Control System (CVCS) - work on one central repo 
+Needs to be connected at all times on remote server
+Distributed Version Control System (DVCS) - local repos of their own HD (containing metadata & files) 
+push & pull commands
+
+GIT = DVCS
+
+
+		WORKING DIR ----------> STAGING AREA ----------> REPOSITORY
+
+git init - new repo
+git status - contents / dir & staging
+git add - new file to staging
+git diff - shows difference between dir & staging
+git commit - perma stores file changes from staging TO repo
+git log - list of previous commits
